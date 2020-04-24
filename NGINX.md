@@ -14,6 +14,9 @@ nginx
 
 // reload
 nginx -s reload
+
+// test
+nginx -t
 ```
 
 If `nginx -s stop` cannot kill the pid, then follow as:
